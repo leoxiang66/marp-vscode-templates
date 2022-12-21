@@ -153,7 +153,7 @@ The core idea of Transformer models is the well-known *Attention*  mechanism.
 <img src ="https://i.imgur.com/aKLNs1G.png">
 </center>
 
-1. $\forall i \in \{1,2,3\}:\ a_i = \langle q_1, k_1 \rangle$ 
+1. $\forall i \in \{1,2,3\}:\ a_i = \langle q_1, k_i \rangle$ 
     - the larger $a_i$ is, the more attention is paid
 
 
@@ -165,7 +165,7 @@ The core idea of Transformer models is the well-known *Attention*  mechanism.
 <img src ="https://i.imgur.com/aKLNs1G.png">
 </center>
 
-1. $\forall i \in \{1,2,3\}:\ a_i = \langle q_1, k_1 \rangle$ 
+1. $\forall i \in \{1,2,3\}:\ a_i = \langle q_1, k_i \rangle$ 
 2. $a_i$ is normalized s.t. $\sum_i^N a_i = 1$ (By Softmax)
 
 
@@ -177,7 +177,7 @@ The core idea of Transformer models is the well-known *Attention*  mechanism.
 <img src ="https://i.imgur.com/aKLNs1G.png">
 </center>
 
-1. $\forall i \in \{1,2,3\}:\ a_i = \langle q_1, k_1 \rangle$ 
+1. $\forall i \in \{1,2,3\}:\ a_i = \langle q_1, k_i \rangle$ 
 2. $a_i$ is normalized s.t. $\sum_i^N a_i = 1$ (By Softmax)
 3. $\text{Attention}\left(q_1\right) = \sum_i^Na_i *  v_i$
 
