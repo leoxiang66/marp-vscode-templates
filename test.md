@@ -49,5 +49,15 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 [![Use this as templatess h:1.5em](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/TUM-EffiFormer)
 
 
+---
+
+# Introduction
+To better understand the the task we are facing, we define the task of **Research Trend Analysis** as follows:
+
+
+**Definition** (Research Trend Analysis (RTA))
+Consider a collection of literature papers $\mathcal{L} = {L_1, L_2, \ldots, L_n}$. The goal of research trend analysis is to identify $k$ research trends $T_1, T_2, \ldots, T_k$. Each research trend $T_i$ is characterized by a trend text $W_i$, which consists of phrases like "reinforcement learning", and a subset of literature papers $C_i \subseteq \mathcal{L}$ (i.e., a cluster) that belong to this trend.
+
+
 
 

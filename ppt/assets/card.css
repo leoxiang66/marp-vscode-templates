@@ -1,0 +1,27 @@
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.card {
+  background-color: #cceeff;
+  border-radius: 5px;
+  padding: 20px;
+  width: 200px; /* 设置卡片宽度 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  display: inline-block; /* 使卡片水平排列 */
+}
+
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 0;
+}
