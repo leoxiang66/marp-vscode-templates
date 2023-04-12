@@ -1,0 +1,21 @@
+.highlight-wrapper {
+    margin-bottom: 1.25em; /* 添加底部边距，可根据需要调整 */
+  }
+
+   .highlight-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #0065bd; /* 设置背景颜色为蓝色 */
+    padding-left: 3.17em; /* 添加左边距，可根据需要调整 */
+    padding-top: 0.2em; /* 添加左边距，可根据需要调整 */
+    padding-bottom: 0.2em; /* 添加左边距，可根据需要调整 */
+    display: flex; /* 设置为弹性布局 */
+    align-items: center; /* 垂直居中 */
+    height: 1.5em; /* 设置容器高度 */
+  }
+  
+  .highlight {
+    color: #ffffff; /* 设置字体颜色为白色 */
+    margin: 0; /* 移除默认的margin */
+  }
